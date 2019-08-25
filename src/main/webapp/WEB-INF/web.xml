@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5">
+    <filter>
+        <filter-name>mario</filter-name>
+        <filter-class>com.jason.MarioFilter</filter-class>
+        <init-param>
+            <param-name>bootstrap</param-name>
+            <param-value>com.jason.sample.App</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>jason</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>
